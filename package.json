@@ -1,0 +1,33 @@
+{
+  "name": "curd",
+  "version": "1.0.0",
+  "description": "CURD API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/werfree/CurdApp.git"
+  },
+  "keywords": [
+    "CURD",
+    "App",
+    "with",
+    "MongoDb",
+    "Node"
+  ],
+  "author": "SAyantan GHosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/werfree/CurdApp/issues"
+  },
+  "homepage": "https://github.com/werfree/CurdApp#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.7.12",
+    "nodemon": "^2.0.1"
+  }
+}
